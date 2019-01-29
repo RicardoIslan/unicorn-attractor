@@ -1,0 +1,241 @@
+body {
+    font-family: Arial;
+    padding-top: 50px;
+}
+
+.row {
+    margin: auto;
+}
+
+.alert{
+    margin-bottom: 0;
+}
+.sign-user-btn {
+    border-radius: 15px;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.accountform {
+    padding-top: 20px;
+}
+
+.comment {
+    padding: 5px;
+    border: 1px solid gray;
+    margin-top: 6px;
+}
+
+/*--------------------------------------------- BLOGS/FEATURES*/
+
+.panel-style {
+    margin-top: 20px;
+}
+
+.circle-maker {
+    border-radius: 50%;
+}
+
+.heading-section {
+    margin-bottom: 20px;
+}
+
+.views {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+/*--------------------------------------------- PROFILE*/
+
+.bug-feature-buttons {
+    text-align: center;
+}
+
+/*--------------------------------------------- CONTAINERS*/
+
+.container-wrapper--red {
+    background-color: #59b4f3;
+    color: #fff;
+}
+
+.container-wrapper--white {
+    background-color: #fff;
+    color: black;
+}
+
+.callout-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    position: relative;
+}
+
+.content-container {
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+.main-section {
+    height: 75vh;
+    padding: 0;
+    width: 100%;
+}
+
+.community-section {
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+/*---------------------------------------------  Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--cta-modal {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 100px;
+}
+
+.btn--red {
+    color: #fff;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+    /*---------------------------------------------  Dividers */
+    .block-divider {
+        width: 75px;
+        height: 5px;
+        border: 0;
+        background-color: #fff;
+    }
+    /*---------------------------------------------  Navbar */
+    .navbar-default {
+        background-image: none;
+        background-color: #58b4f4;
+    }
+    .navbar {
+        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        border: 0;
+    }
+
+
+    /*--------------------------------------------- JUMBOTRON*/
+    .jumbotron {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #022f5a;
+        margin-bottom: 0;
+        border-radius: 0 !important;
+        height: 100%;
+    }
+
+    .jumbotron h1 {
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .jumbotron .lead {
+        color: #fff;
+        margin: 25px 0;
+    }
+
+    .jumbotron small {
+        font-size: 60%;
+        font-style: italic;
+        color: #d0d0d0;
+    }
+
+    /*--------------------------------------------- FEATURES*/
+    .feature h3 {
+        margin-top: 0;
+    }
+
+    .feature {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .feature .glyphicon {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .label-success {
+        background-color: #29a4df;
+    }
+
+    /*--------------------------------------------- HEADERS*/
+    .page-header {
+        margin-top: 30px;
+        margin-bottom: 0;
+        border-bottom: 0;
+        text-align: center;
+    }
+
+    .page-header h2 {
+        margin-top: 0;
+    }
+
+    .common-headers {
+        color: #fff;
+    }
+    
+    .graph-headers{
+        color: #325063;
+        font-size: 21px;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+    
+    /*--------------------------------------------- GRAPHS*/
+    
+    .features-explanation-list{
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .list-feature-item{
+        padding: 10px;
+        color: #0b3c72;
+    }
+    
+    .progressbar-feature{
+        margin-top: 30px;
+    }
+    
