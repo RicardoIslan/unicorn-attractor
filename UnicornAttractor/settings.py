@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'grbkb=j8=0#819djx%n6jtupf$0mtej(ps&)d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'full-stack-framework.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'unicorn-attractor-project.herokuapp.com']
 
 
 # Application definition
