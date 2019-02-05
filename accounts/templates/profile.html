@@ -29,7 +29,9 @@
     {% if bugs %}
     <hr>
     <div class="row row-flex">
-        <h5>Your bugs</h5>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+        <h5 class="sub-title">BUGS:</h5>
+        </div>
         {% for bug in bugs %}
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 panel-style ">
             {% if bug.status == "todo" %}
@@ -41,7 +43,6 @@
                         {% endif %}
                         <div class="panel-heading">Status: {{ bug.status }}</div>
                         <div class="panel-body">
-
                             <h4 class="card-title">{{ bug.name }}</h4>
                             <p class="product-description card-text">{{ bug.description|truncatewords:5 }}</p>
                             <div class="row center">
@@ -65,7 +66,9 @@
             {% else %} {% endif %} {% if features %}
             <hr>
             <div class="row">
-                <h5>Your features</h5>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center sub-title">
+                <h5 class="sub-title">FEATURES:</h5>
+                </div>
                 {% for feature in features %}
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 panel-style ">
                     {% if feature.status == "todo" %}

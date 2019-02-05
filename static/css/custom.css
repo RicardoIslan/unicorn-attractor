@@ -125,10 +125,34 @@ body {
     min-height: -webkit-fill-available;
 }
 
+.features-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/features-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: -webkit-fill-available;
+}
+
+.cart-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/media/cart-cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: -webkit-fill-available;
+}
+
 .title {
     font-size: 40px;
     color: aliceblue;
     font-weight: 600;
+}
+
+.sub-title {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .community-section {
@@ -302,12 +326,6 @@ footer a {
 }
 footer a:hover {
 color: #fff;
-}
-
-#github-icon {
-    color: #fff;
-    font-size: 35px;
-    margin-top: 10px;
 }
 
 .web-developer {

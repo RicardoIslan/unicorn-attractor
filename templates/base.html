@@ -6,14 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>UnicornAttractor</title>
-    
-    
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
     <link rel="stylesheet" href=" {% static 'font-awesome/css/font-awesome.min.css' %}">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
@@ -74,19 +74,22 @@
 
     <footer class="container-fluid center footer">
 
-        <div>
+        <div class="row center">
+            <div class="col-xs-12 col-sm-12	col-md-12 col-lg-12">
+                <a class='inline' href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a class='inline' href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class='inline' href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class='inline' href="#" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
 
-            <a class='inline' href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
-            <a class='inline' href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a class='inline' href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a class='inline' href="#" target="_blank"><i class="fa fa-github"></i></a>
-            <br>
-            <p class="web-developer">©2019 Unicorn Attractor</p>
-
+            <div class="col-xs-12 col-sm-12	col-md-12 col-lg-12">
+                <p class="web-developer">©2019 Unicorn Attractor</p>
+            </div>
         </div>
-
     </footer>
-    
+
+    <script type="text/javascript" src="{% static 'js/stripe.js' %}"></script>
+
 </body>
 
 </html>
