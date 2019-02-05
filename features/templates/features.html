@@ -16,11 +16,11 @@
 
                             <h4 class="card-title">{{ feature.name }}</h4>
                             <p class="product-description card-text">{{ feature.description|truncatewords:5 }}</p>
-                            <div class="row">
-                                <div class="col-sm-3">
+                            <div class="row center">
+                                <div class="col-sm-6">
                                     <p><a href="{% url 'feature_detail' feature.id %}" class="btn btn-primary circle-maker"><span class="glyphicon glyphicon-plus"></span></a></p>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-6">
                                     {% if feature.status == "done" %}
                                     <!-- Button trigger modal -->
                                     {% else %}

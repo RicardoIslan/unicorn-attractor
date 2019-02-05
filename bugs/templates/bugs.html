@@ -16,11 +16,11 @@
 
                             <h4 class="card-title">{{ bug.name }}</h4>
                             <p class="product-description card-text">{{ bug.description|truncatewords:5 }}</p>
-                            <div class="row">
-                                <div class="col-sm-3">
+                            <div class="row center">
+                                <div class="col-sm-6">
                                     <p><a href="{% url 'bug_detail' bug.id %}" class="btn btn-primary circle-maker"><span class="glyphicon glyphicon-plus"></span></a></p>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-6">
                                     {% if bug.status == "done" %} {% else %}
                                     <form method="post" action="{% url 'upvote_bug' bug.id %}">
                                         {% csrf_token %}

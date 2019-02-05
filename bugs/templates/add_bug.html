@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% load bootstrap_tags %} {% block content %}
-<div class="container">
+<div class="container" id="one">
     <h3>Add your bug here</h3>
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %} {{ form | as_bootstrap }}

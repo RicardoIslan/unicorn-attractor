@@ -89,6 +89,14 @@ body {
     padding: 0;
 }
 
+#one {
+    min-height: -webkit-fill-available;
+}
+
+#two {
+    min-height: 100vh;
+}
+
 .center {
     text-align: center;
 }
