@@ -47,13 +47,13 @@
                             <p class="product-description card-text">{{ bug.description|truncatewords:5 }}</p>
                             <div class="row center">
                                 <div class="col-sm-4">
-                                    <p><a href="{% url 'bug_detail' bug.id %}" class="btn btn-primary circle-maker"><span class="glyphicon glyphicon-plus"></span></a></p>
+                                    <p><a href="{% url 'bug_detail' bug.id %}" class="btn btn-primary"><span>Chat</span></a></p>
                                 </div>
                                 <div class="col-sm-4">
-                                    <p><a href="{% url 'edit_bug' bug.id %}" class="btn btn-success circle-maker"><span class="glyphicon glyphicon-pencil"></span></a></p>
+                                    <p><a href="{% url 'edit_bug' bug.id %}" class="btn btn-success"><span>Edit</span></a></p>
                                 </div>
                                 <div class="col-sm-4">
-                                    <p><a href="{% url 'delete_bug' bug.id %}" class="btn btn-danger circle-maker"><span class="glyphicon glyphicon-remove"></span></a></p>
+                                    <p><a href="{% url 'delete_bug' bug.id %}" class="btn btn-danger"><span>Delete</span></a></p>
                                 </div>
                             </div>
                             <p class="views"><span class="glyphicon glyphicon-eye-open"></span> {{ bug.views }}</p>
@@ -85,13 +85,13 @@
                                     <p class="product-description card-text">{{ feature.description|truncatewords:5 }}</p>
                                     <div class="row center">
                                         <div class="col-sm-4">
-                                            <p><a href="{% url 'feature_detail' feature.id %}" class="btn btn-primary circle-maker"><span class="glyphicon glyphicon-plus"></span></a></p>
+                                            <p><a href="{% url 'feature_detail' feature.id %}" class="btn btn-primary"><span>Chat</span></a></p>
                                         </div>
                                         <div class="col-sm-4">
-                                            <p><a href="{% url 'edit_feature' feature.id %}" class="btn btn-success circle-maker"><span class="glyphicon glyphicon-pencil"></span></a></p>
+                                            <p><a href="{% url 'edit_feature' feature.id %}" class="btn btn-success"><span>Edit</span></a></p>
                                         </div>
                                         <div class="col-sm-4">
-                                            <p><a href="{% url 'delete_feature' feature.id %}" class="btn btn-danger circle-maker"><span class="glyphicon glyphicon-remove"></span></a></p>
+                                            <p><a href="{% url 'delete_feature' feature.id %}" class="btn btn-danger"><span>Delete</span></a></p>
                                         </div>
                                     </div>
 
