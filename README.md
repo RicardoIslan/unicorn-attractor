@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RicardoIslan/unicorn-attractor.svg?branch=master)](https://travis-ci.org/RicardoIslan/unicorn-attractor)
+
 Unicorn Attractor
 ===
 #### We offering a extremely awesome web application to our users.
@@ -13,7 +15,7 @@ Getting Started:
 #### Once you have added a feature to your cart, you will able to proceed to the checkout.
 
 #### If you want to have the application on your computer, you will need to clone the repository:
-``` https://github.com/RicardoIslan/the-riddle-game.git ```
+``` https://github.com/RicardoIslan/unicorn-attractor.git ```
 #### Create a django project:
 ``` $ django-admin startproject UnicornAttractor ```
 #### Make the migrations:
