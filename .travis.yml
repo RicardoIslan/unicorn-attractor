@@ -3,10 +3,7 @@ python:
 - '3.4'
 install: pip install -r requirements.txt
 env:
-  global:
-    secure: "<grbkb=j8=0#819djx%n6jtupf$0mtej(ps&)d$sz-($2@!84@l>"
   matrix:
     secure: M9I9csbA9z9TWBIaUS9JBiCqRkkegLW96pTcZqiMF5gzPQp5haJFDcuhziykmkwYfatYJMZzxfnSf2bStXgP8VebOJpjhZqzN+s4xUjybLKIeBgqF12TJ0LLKCDFTU0KjYPtGB7aP5i9HpHHL69nxTO02ug0HTG+VIuIL907jEUh8AOLcqFJwoj4UqIk/R69yn4jmqi0UMXwARj9IDrBBXbNsDrbhztsIZX0mr0VCgE48IQEPeU9FffCjuGUFOQPrCYIo5kOCHkxnuJO2WVA1Z3qpCzIEpl+FpVbdE7mqxl3/3WkU/SFTaCkWy4SxmaAE2qgsPAb7FtOXRNSN0DPM2XGqjswKlLmwez36pSVUL7M6NIOBhzLlR+wNT4tka2n1j4O2yStFC0EnE4AP5OuZzohi9QO0jLMswXuKUvFV0w+YzegNdz2fnM+NW8s7AxymHVqMYwey0kM4I6TGha+Wom6Srl2ZQd4ilzphRNQuz0UGFWlNZZ1mjrAbkYvsd3z2ICF4739pgGeoCDtzasA8vJe6fy5kw3IPzAcnQNtGsQCaaAZVOGMFarVKJLicoOVaySllqOH/mjxrg+05q8FBPrx8Mzvh9Ctkp8D+XJl1lLzXNTtBdomyba7jlfaa8XUZcpntN9QjDr5uRriPwIkYVyJO9LYq+J7kXW//AndSuc=
 script:
-- export SECRET_KEY="grbkb=j8=0#819djx%n6jtupf$0mtej(ps&)d$sz-($2@!84@l"
 - python3 manage.py test
