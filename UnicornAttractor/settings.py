@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'features',
     'cart',
     'checkout',
-    'UnicornAttractor',
 ]
 
 MIDDLEWARE = [

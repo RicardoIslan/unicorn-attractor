@@ -22,6 +22,8 @@ Getting Started:
 ``` $ python3 manage.py makemigrations ```
 #### Run migrate:
 ``` $ python3 manage.py migrate ```
+#### Run migrations on Heroku:
+``` $ heroku run python3 manage.py migrate ```
 #### Create a superuser:
 ``` $ python manage.py createsuperuser ```
 #### Install requirements with pip:
