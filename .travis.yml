@@ -9,4 +9,4 @@ env:
 
 script:
     - export SECRET_KEY=$SECRET_KEY
-    - manage.py test
+    - python3 manage.py test
