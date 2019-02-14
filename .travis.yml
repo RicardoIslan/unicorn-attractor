@@ -3,4 +3,4 @@ python:
 - "3.4"
 install: "pip3 install -r requirements.txt"
 script:
-- SECRET_KEY= "grbkb=j8=0#819djx%n6jtupf$0mtej(ps&)d$sz-($2@!84@l" ./settings.py test
+- SECRET_KEY= "Moon" ./manage.py test
