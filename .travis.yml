@@ -8,4 +8,5 @@ env:
       secure: <grbkb=j8=0#819djx%n6jtupf$0mtej(ps&)d$sz-($2@!84@l>
 
 script:
-    - export SECRET_KEY=$SECRET_KEY ./manage.py test
+    - export SECRET_KEY=$SECRET_KEY
+    - manage.py test
