@@ -30,7 +30,10 @@ Getting Started:
 ``` $ pip install -r requirements.txt ```
 #### Run the python file:
 ``` $ python3 manage.py runserver $IP:$PORT ```
-
+#### Run Travis-ci:
+``` $ gem install travis ```
+#### Travis encript SECRET_KEY:
+``` $ travis encrypt SECRET_KEY=$SECRET_KEY --add env.matrix ```
 Features:
 ---
 #### Our users have the opportunity to support us and in exchange we offer half of our time.
