@@ -83,5 +83,5 @@ Media:
 
 Acknowledgements:
 ---
-- ##### I received inspiration for this project from [CodeInstitute](https://courses.codeinstitute.net) and from tutorials on [YouTube](https://www.youtube.com/results?search_query=python+quiz+games).
+- ##### I received inspiration for this project from [CodeInstitute](https://courses.codeinstitute.net), [stackoverflow](https://stackoverflow.com/), [GitHub](https://github.com/)t and from tutorials on [YouTube](https://www.youtube.com/results?search_query=python+quiz+games).
 # UnicornAttractor
